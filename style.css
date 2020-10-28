@@ -90,8 +90,8 @@ button:focus {
 * {
     font-family: 'Turret Road', monospace;
 }
-a:link {
-    text-decoration: none;
+
+h1 a{
     color: white;
 }
 
