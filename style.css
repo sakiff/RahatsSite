@@ -90,3 +90,13 @@ button:focus {
 * {
     font-family: 'Turret Road', monospace;
 }
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: rgb(255, 217, 0) !important;
+    cursor: pointer;
+}
