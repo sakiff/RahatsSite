@@ -2,7 +2,7 @@
     width: 100%;
     height: 300px;
     background-color: yellow;
-    background: url(/img/offwhiteFives/3.jpg) no-repeat center;
+    background: url(/img/offwhiteFives/2.jpg) no-repeat center;
     background-size: cover;
     
 }
@@ -52,4 +52,41 @@
     padding-left: 20px;
     white-space: nowrap;
 
+}
+
+.custom-btn {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: rgb(255, 217, 0);
+    padding: 5px;
+    width: 6rem;
+    color:rgb(255, 217, 0);
+}
+
+
+.form-control {
+    border-radius: 20px !important;
+    padding: 6px !important;
+    background-color: black !important;
+    color: gray !important;
+    border-color: black !important;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none !important;
+}
+
+.current {
+ color: rgb(255, 217, 0);
+}
+
+.bg-darkk {
+    background-color: rgb(20, 20, 20);
+}
+
+* {
+    font-family: 'Turret Road', monospace;
 }
